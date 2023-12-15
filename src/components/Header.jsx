@@ -1,10 +1,16 @@
-import React from 'react'
+// Inside your Header component
+import React from 'react';
 
-function Header(){
-    return(
-        <>
-        <h1>This is the header</h1>
-        </>
-    )
-}
+const Header = () => {
+  return (
+    <div>
+      <img
+        src="/src/assets/header.jpeg"
+        alt="Your Alt Text"
+        style={{ maxWidth: '70%', height: 'auto' }}
+      />
+    </div>
+  );
+};
+
 export default Header;

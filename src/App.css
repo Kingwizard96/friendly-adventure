@@ -7,3 +7,12 @@ h1 {
     background: linear-gradient(to right,#147eac, #208e6b);
     text-align: center;
   }
+
+.port-img{
+    width: 20%;
+    height: 25%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgb(133, 198, 198);
+    box-shadow: 0 0 10px rgb(133, 198, 198);
+}
