@@ -1,11 +1,12 @@
 // This is a static page mocking an "About Us" section for our fake user data
 import Header from '../components/Header';
+import HomePage from './HomePage';
 
 export default function AboutPage() {
     return (
       <div className="container pt-4">
         <p>
-          < Header />
+        <HomePage />
          I'm Cristofher Alvarado, also known as kingwizard. I find joy in gaming, outdoor activities, and expressing creativity through drawing, painting, and photography. While currently my job is serving, I used to be a body shop technician. I ventured into HTML through YouTube, and now I'm immersed in a web development boot camp at Uconn. My skills include JavaScript,Figma, Photoshop, React, Node.js, MySQL, MongoDB, and GraphSQL. Eagerly pursuing a career as a developer or designer.
         </p>
         <section className="features-icons bg-light text-center m-4">

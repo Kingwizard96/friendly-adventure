@@ -15,7 +15,7 @@ function HomePage(){
 
             {/* <AboutPage /> */}
             
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

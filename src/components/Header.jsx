@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div>
       <img
-        src="/src/assets/header.jpeg"
+        src="/src/assets/header.jpg"
         alt="Your Alt Text"
         style={{ maxWidth: '70%', height: 'auto' }}
       />
