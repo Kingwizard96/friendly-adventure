@@ -1,2 +1,7 @@
+.bg-secondary{
+    background-color: #010102 !important;
+}
 
-
+.navbar-dark .navbar-nav .nav-link {
+    color:rgb(133, 198, 198);
+}
