@@ -1,19 +1,11 @@
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import './App.css'
-
+import Nav from "./components/Nav";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <HomePage />
-      <Header />
-      <AboutPage />
-      <Footer />
-
-  
+     <Nav />
+    < Outlet />
 
     </>
   );
