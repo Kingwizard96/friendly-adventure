@@ -1,9 +1,20 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
+import logo from '../../assets/Mangeky.png';
+
 export default function Nav({ links }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-secondary">
       <div className="container-fluid">
+      <div className="navbar-brand">
+  <Link to="/">
+    <img src={logo} alt="Logo" width="30" height="30" className="d-inline-block align-top rounded-cirlce" />
+    <span className="text-light ml-2">KingWizard's Portfolio</span>
+  </Link>
+</div>
+        
         <button
           className="navbar-toggler"
           type="button"
