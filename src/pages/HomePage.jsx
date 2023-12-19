@@ -15,7 +15,7 @@ function HomePage(){
 
             <div className="container pt-4">
         <section className="text-center m-4">
-          <h2 className="text-center">My Name</h2>
+          <h2 className="text-left">My Name</h2>
           <p className="lead">
             Hi, I'm Cristofher Alvarado, also known as kingwizard. Welcome to my portfolio!
           </p>
@@ -32,7 +32,7 @@ function HomePage(){
       <div className="container">
         <div className="row p-2">
           <div className="col-lg-12">
-            <h2 className="text-center">Projects</h2>
+            <h2 className="text-left">Projects</h2>
             <hr />
             <ProjectPage />
           </div>

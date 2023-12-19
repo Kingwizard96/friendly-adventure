@@ -7,7 +7,7 @@ const Header = () => {
       <img
         src="/src/assets/musashi.webp"
         id='headerImg'
-        alt="Your Alt Text"
+        alt="profile"
         style={{
           maxWidth: '70%',
           height: 'auto',
