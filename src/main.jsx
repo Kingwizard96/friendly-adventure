@@ -2,15 +2,16 @@ import ReactDOM from 'react-dom/client';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import './App.css'
-import './index.css'
+import './App.css';
+import './index.css';
 
 
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ErrorPage from './pages/ErrorPage';
-import ProjectPage from './pages/ProjectPage'
-import App from './App'
+import ProjectPage from './pages/ProjectPage';
+import ContactPage from './pages/ContactPage';
+import App from './App';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       path: '/ProjectPage',
       element: <ProjectPage />,
     },
+    {
+      path: '/ContactPage',
+      element: <ContactPage/>,
+    }
   ],
   },
 ]);
