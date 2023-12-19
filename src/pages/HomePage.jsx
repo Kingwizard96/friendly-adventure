@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../components/Header';
-// import Footer from '../components/Footer';
 import '../App.css'
 import AboutPage from './AboutPage';
 import ProjectPage from './ProjectPage';
@@ -14,7 +13,18 @@ function HomePage(){
       Hello, World!
          </h1>
             <Header />
+
+            <div className="container pt-4">
+        <section className="text-center m-4">
+          <h2 className="text-center">My Name</h2>
+          <p className="lead">
+            Hi, I'm Cristofher Alvarado, also known as kingwizard. Welcome to my portfolio!
+          </p>
+        </section>
+      </div>
+
             <AboutPage />
+            
             
             <div className='container pt-4'>
             <section className="features-icons transparent-shadow text-center m-4">
@@ -33,7 +43,7 @@ function HomePage(){
 
            
 
-            {/* <Footer /> */}
+           
         </>
     )
 }
