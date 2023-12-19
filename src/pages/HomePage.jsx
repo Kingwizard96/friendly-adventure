@@ -12,7 +12,6 @@ function HomePage(){
           <h1 className="text-7xl font-bold underline">
       Hello, World!
          </h1>
-            <Header />
 
             <div className="container pt-4">
         <section className="text-center m-4">
@@ -23,7 +22,9 @@ function HomePage(){
         </section>
       </div>
 
-            <AboutPage />
+           <Header />
+           <AboutPage />
+            
             
             
             <div className='container pt-4'>
