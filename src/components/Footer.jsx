@@ -1,12 +1,15 @@
-import react from 'react';
 import '../App.css'
+
 
 export default function Footer() {
     return (
-        <>
-    
-        <h2> this is a footer</h2>
+       
+     <footer className="footer">
+      <img src="/public/vite.svg" alt="Vite Logo" />
+      {/* Add other footer content if needed */}
+    </footer>
+
         
-        </>
+        
     )
 }
