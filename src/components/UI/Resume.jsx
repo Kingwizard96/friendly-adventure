@@ -7,7 +7,7 @@ export default function Resume() {
             Below is a link to download my resume:
           </p>
           <img 
-          src="/src/assets/resume.png" 
+          src="/assets/resume.png" 
           alt="Resume" 
           style={{ 
             width: '100%',

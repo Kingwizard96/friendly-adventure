@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import logo from '../../assets/Mangeky.png';
+import logo from '/assets/Mangeky.png';
 
 export default function Nav({ links }) {
   return (

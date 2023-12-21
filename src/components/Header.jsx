@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div style={{ textAlign: 'center' }}>
       <img
-        src="/src/assets/musashi.webp"
+        src="/assets/musashi.webp"
         id='headerImg'
         alt="profile"
         style={{

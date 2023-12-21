@@ -1,12 +1,11 @@
 import Resume from '../components/UI/Resume';
-import myImage from '../assets/me.jpeg';
 
 export default function AboutPage() {
   return (
     <div className="about-container">
       <div className="container pt-4">
         <img
-          src= {myImage}
+          src="/assets/me.jpeg"
           alt="AboutPage"
           style={{
             width: '100%',
