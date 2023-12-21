@@ -1,5 +1,19 @@
-# 20 React: React Portfolio
+# React Portfolio
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+## Description
+
+This React Portfolio is a single-page application showcasing a web developer's work samples. It follows the specified user story and acceptance criteria to provide a seamless and informative experience for potential employers.
+
+## Table of Contents
+
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [License](#license)
+- [Live-link](#live-link)
 
 ## User Story
 
@@ -15,26 +29,30 @@ SO THAT I can assess whether they're a good candidate for an open position
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
 THEN I am presented with a page containing a header, a section for content, and a footer
-WHEN I view the header
-THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
-WHEN I view the navigation titles
-THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
-WHEN I click on a navigation title
-THEN the browser URL changes and I am presented with the corresponding section below the navigation and that title is highlighted
-WHEN I load the portfolio the first time
-THEN the About Me title and section are selected by default
-WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
-WHEN I am presented with the Contact section
-THEN I see a contact form with fields for a name, an email address, and a message
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+...
 ```
+
+## Installation
+
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install the necessary dependencies.
+
+## Usage
+
+1. Run `npm start` to start the development server.
+2. Open your browser and navigate to `http://localhost:3000` to view the portfolio.
+
+## Screenshots
+
+![Screenshot 2023-12-21 at 3 09 07 AM](https://github.com/Kingwizard96/automatic-e-ecommerce-/assets/132643725/e339caa7-cd4e-4024-a913-4b5ec2440c59)
+
+![Screenshot 2023-12-21 at 3 09 54 AM](https://github.com/Kingwizard96/automatic-e-ecommerce-/assets/132643725/d86a7a67-b40d-4093-8b85-d8a85e53f215)
+
+
+## Live Link
+https://subtle-marigold-f78392.netlify.app/AboutPage
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
