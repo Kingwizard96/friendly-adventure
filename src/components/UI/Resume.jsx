@@ -23,6 +23,9 @@ export default function Resume() {
               Download My Resume (Word Document)
             </a>
           </p>
+          <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-menu-fallback" style={{color:'blue'}} >
+              View My Indeed Profile
+            </a>
         </div>
       </div>
     );

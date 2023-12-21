@@ -35,31 +35,35 @@ export default function ContactPage() {
         </div>
 
         <div className="mb-3">
-          <label htmlFor="email" className="form-label">
-            Your Email:
-          </label>
-          <input
-            type="email"
-            className="form-control"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
+            <label htmlFor="email" className="form-label">
+              Your Email:
+            </label>
+            <input
+              type="email"
+              className="form-control"
+              id="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              pattern=".*@.*"
+              title="Enter a valid email address containing '@'"
+              required
+            />
+          </div>
 
-        <div className="mb-3">
-          <label htmlFor="phone" className="form-label">
-            Your Phone Number:
-          </label>
-          <input
-            type="tel"
-            className="form-control"
-            id="phone"
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
-          />
-        </div>
+          <div className="mb-3">
+              <label htmlFor="phone" className="form-label">
+                Your Phone Number:
+              </label>
+              <input
+                type="tel"
+                className="form-control"
+                id="phone"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                pattern="[0-9]{10}"
+                title="Enter a valid 10-digit phone number"
+              />
+            </div>
 
         <div className="mb-3">
           <label htmlFor="company" className="form-label">
