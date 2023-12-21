@@ -15,9 +15,14 @@ export default function AboutPage() {
         />
         <br />
         <br />
-        <h2 class='text-left'>About Me</h2>
+        <h2 className="text-left">About Me</h2>
         <p>
           I find joy in gaming, outdoor activities, and expressing creativity through drawing, painting, and photography. While currently my job is serving, I used to be a body shop technician. I ventured into HTML through YouTube, and now I'm immersed in a web development boot camp at Uconn. My skills include JavaScript, Figma, Photoshop, React, Node.js, MySQL, MongoDB, and GraphSQL. Eagerly pursuing a career as a developer or designer.
+        </p>
+        <h2 className="text-left mt-4">Contact Information</h2>
+        <p>
+          Email: <a href="mailto:calvarado1996@gmail.com" style={{ color: 'blue' }}>calvarado1996@gmail.com</a> <br />
+          Phone: <a href="tel:+13463975510" style={{ color: 'blue' }}>+1 (346) 397-5510</a>
         </p>
       </div>
     </div>
