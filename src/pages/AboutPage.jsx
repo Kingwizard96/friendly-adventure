@@ -1,3 +1,5 @@
+import Resume from '../components/UI/Resume';
+
 export default function AboutPage() {
   return (
     <div className="about-container">
@@ -24,6 +26,7 @@ export default function AboutPage() {
           Email: <a href="mailto:calvarado1996@gmail.com" style={{ color: 'blue' }}>calvarado1996@gmail.com</a> <br />
           Phone: <a href="tel:+13463975510" style={{ color: 'blue' }}>+1 (346) 397-5510</a>
         </p>
+        <Resume />
       </div>
     </div>
   );

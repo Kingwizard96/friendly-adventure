@@ -12,6 +12,7 @@ import AboutPage from './pages/AboutPage';
 import ErrorPage from './pages/ErrorPage';
 import ProjectPage from './pages/ProjectPage';
 import ContactPage from './pages/ContactPage';
+
 import App from './App';
 
 const router = createBrowserRouter([
