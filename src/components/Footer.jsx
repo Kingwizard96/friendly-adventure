@@ -5,8 +5,8 @@ export default function Footer() {
     return (
        
      <footer className="footer">
-      <img src="/public/vite.svg" alt="Vite Logo" />
-     <img src="/public/react.svg" alt="React Logo" />
+      <img src="/vite.svg" alt="Vite Logo" />
+     <img src="/react.svg" alt="React Logo" />
     </footer>
 
         
