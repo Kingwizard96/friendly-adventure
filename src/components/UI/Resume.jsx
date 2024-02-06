@@ -19,8 +19,8 @@ export default function Resume() {
             <br />
             <br />
           <p>
-            <a href="./public/Kingwizard-resume.docx" style={{color:'blue'}} download>
-              Download My Resume (Word Document)
+            <a href="./public/resume.pdf" style={{color:'blue'}} download>
+              Download My Resume (pdf)
             </a>
           </p>
           <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-menu-fallback" style={{color:'blue'}} >
