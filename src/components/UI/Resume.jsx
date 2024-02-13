@@ -19,12 +19,16 @@ export default function Resume() {
             <br />
             <br />
           <p>
-            <a href="./public/resume.pdf" style={{color:'blue'}} download>
+            <a href="./public/files/resume.pdf" style={{color:'blue'}} download>
               Download My Resume (pdf)
             </a>
+            <br/>
+            < a href="./public/files/resume.docx" style={{color:'blue'}} download>
+              Download My Resume (docx)
+            </a>
           </p>
-          <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-menu-fallback" style={{color:'blue'}} >
-              View My Indeed Profile
+          <a href="https://www.linkedin.com/in/cristofher-alvarado-370891254/" style={{color:'blue'}} >
+              View My LinkedIn Profile
             </a>
         </div>
       </div>
