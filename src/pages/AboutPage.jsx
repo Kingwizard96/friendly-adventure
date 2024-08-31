@@ -5,7 +5,7 @@ export default function AboutPage() {
     <div className="about-container">
       <div className="container pt-4">
         <img
-          src="/assets/me.jpeg"
+          src="/assets/me.jpg"
           alt="AboutPage"
           style={{
             width: '100%',
